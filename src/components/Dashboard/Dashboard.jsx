@@ -50,7 +50,7 @@ export function AuctionTable({ items, favorites, addToFavorites }) {
                   className={`text-xl transition ${
                     isFavorited
                       ? "text-red-500 cursor-not-allowed"
-                      : "text-gray-400 hover:text-red-500"
+                      : "text-gray-400 hover:text-red-500 cursor-pointer"
                   }`}
                   disabled={isFavorited}
                 >
@@ -78,13 +78,13 @@ export function FavoriteItemsSidebar({ favorites, removeFavorite }) {
 
   return (
     <div className="bg-white mt-23 rounded-xl shadow p-4 w-full max-w-xs h-full mr-40">
-      <h3 className="text-lg font-semibold mb-4 border-b border-black">
+      <h3 className="text-lg font-semibold mb-4 border-b border-black text-[#00A4C4]">
         ♡ Favorite Items
       </h3>
 
       {favorites.length === 0 ? (
         <div className=" text-center text-sm text-gray-500">
-          <p className="font-semibold text-black mb-1">No favorites yet</p>
+          <p className="font-semibold text-[#00A4C4] mb-1">No favorites yet</p>
           <p>Click the heart icon on any item to add it to your favorites</p>
         </div>
       ) : (
@@ -109,9 +109,10 @@ export function FavoriteItemsSidebar({ favorites, removeFavorite }) {
                   </p>
                 </div>
               </div>
-              <button
+              <button 
                 onClick={() => removeFavorite(item.id)}
-                className="text-gray-400 hover:text-red-500 p-2"
+                className="text-gray-400 hover:text-red-500 p-2 cursor-pointer"
+                title="Remove" 
               >
                 ✕
               </button>
@@ -132,7 +133,7 @@ export default function AuctionDashboard() {
   const [auctionItems, setAuctionItems] = useState([]);
 
   useEffect(() => {
-    fetch("/data/auctionItems.json")
+    fetch("/data/finfiveItems.json")
       .then((res) => res.json())
       .then((data) => setAuctionItems(data))
       .catch((err) => console.error("Failed to load data:", err));
@@ -150,7 +151,7 @@ export default function AuctionDashboard() {
     
     if (itemToRemove) {
       setFavorites(favorites.filter((item) => item.id !== id));
-      toast.success(`${itemToRemove.title} removed from favorites!`);
+      toast.info(`${itemToRemove.title} removed from favorites!`);
     }
   };
   

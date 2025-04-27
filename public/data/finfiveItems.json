@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Apple MacBook Pro M2",
+    "description": "Powerful laptop with M2 chip, Retina display, and long battery life.",
+    "currentBidPrice": 1400.0,
+    "timeLeft": "3d 5h 20m",
+    "bidsCount": 22,
+    "image": "https://i.ibb.co.com/nqFYyycG/Mac-Book-Pro-M2-8256-GB-13-inch-Space-Gray-a-3035.jpg"
+  },
+  {
+    "id": 2,
+    "title": "DJI Mini 3 Pro Drone",
+    "description": "Compact, foldable drone with 4K camera and obstacle sensing.",
+    "currentBidPrice": 890.0,
+    "timeLeft": "1d 14h 50m",
+    "bidsCount": 18,
+    "image": "https://i.ibb.co.com/ZRM8cJw3/mini-3-pro-09-500x500.webp"
+  },
+  {
+    "id": 3,
+    "title": "Sony WH-1000XM5 Headphones",
+    "description": "Industry-leading noise canceling headphones with crystal clear audio.",
+    "currentBidPrice": 320.0,
+    "timeLeft": "2d 6h 10m",
+    "bidsCount": 10,
+    "image": "https://i.ibb.co.com/bjT3gSWc/103364-original-local-1200x1050-v3-converted-1.webp"
+  },
+  {
+    "id": 4,
+    "title": "ASUS ROG Gaming Laptop",
+    "description": "High-performance gaming laptop with RTX 4070 and 144Hz display.",
+    "currentBidPrice": 1750.0,
+    "timeLeft": "4d 3h 30m",
+    "bidsCount": 28,
+    "image": "https://i.ibb.co.com/21Hdz9q7/gl704gv-01-500x500.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Samsung Galaxy Watch 6",
+    "description": "Smartwatch with fitness tracking, ECG, and AMOLED screen.",
+    "currentBidPrice": 299.0,
+    "timeLeft": "1d 10h 45m",
+    "bidsCount": 14,
+    "image": "https://i.ibb.co.com/gF4M7Z6b/Galaxy-Watch6-Graphite-6125.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Logitech MX Master 3S Mouse",
+    "description": "Ergonomic wireless mouse with ultra-precise scrolling and USB-C.",
+    "currentBidPrice": 95.0,
+    "timeLeft": "0d 22h 30m",
+    "bidsCount": 9,
+    "image": "https://i.ibb.co.com/Hfd1j8pp/mx-master-3s-top-view-black.webp"
+  },
+  {
+    "id": 7,
+    "title": "GoPro HERO11 Black",
+    "description": "Action camera with HyperSmooth stabilization and 5.3K video.",
+    "currentBidPrice": 480.0,
+    "timeLeft": "2d 2h 55m",
+    "bidsCount": 16,
+    "image": "https://i.ibb.co.com/4RB9PxG0/pdp-h11b-SA-image02-1920-2x.webp"
+  },
+  {
+    "id": 8,
+    "title": "Anker Soundcore Bluetooth Speaker",
+    "description": "Portable waterproof speaker with 24-hour battery and deep bass.",
+    "currentBidPrice": 60.0,
+    "timeLeft": "1d 12h 40m",
+    "bidsCount": 7,
+    "image": "https://i.ibb.co.com/bksCwC6/Anker-Soundcore-Pyro-Mini-Portable-Bluetooth-Speaker-2.webp"
+  },
+  {
+    "id": 9,
+    "title": "Apple iPad Air 5th Gen",
+    "description": "Sleek tablet with M1 chip, Apple Pencil support, and 10.9\" display.",
+    "currentBidPrice": 620.0,
+    "timeLeft": "2d 18h 5m",
+    "bidsCount": 21,
+    "image": "https://i.ibb.co.com/8407zgYQ/4973-88132.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Steam Deck 512GB",
+    "description": "Portable gaming console with full PC game support and touch display.",
+    "currentBidPrice": 690.0,
+    "timeLeft": "3d 4h 15m",
+    "bidsCount": 17,
+    "image": "https://i.ibb.co.com/0jYT87gF/Steam-Deck-Console-1-TB-OLED-in-Qatar-600x600.jpg"
+  }
+]
