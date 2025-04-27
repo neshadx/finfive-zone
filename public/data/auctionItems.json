@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "title": "Vintage Leica M3 Camera",
+      "description": "Classic 35mm film camera",
+      "currentBidPrice": 2650,
+      "timeLeft": "2 Days Left",
+      "bidsCount": 12,
+      "image": "https://i.ibb.co.com/SXhFhVsg/Bid1-min.png"
+    },
+    {
+      "id": 2,
+      "title": "1965 Gibson SG Standard Electric Guitar",
+      "description": "Iconic vintage electric guitar",
+      "currentBidPrice": 2100,
+      "timeLeft": "1 Days Left",
+      "bidsCount": 8,
+      "image": "https://i.ibb.co.com/xtQwvqSf/Bid2-min.png"
+    },
+    {
+      "id": 3,
+      "title": "Original Apple Macintosh 128K (1984)",
+      "description": "Vintage Apple computer",
+      "currentBidPrice": 2000,
+      "timeLeft": "3 Days Left",
+      "bidsCount": 9,
+      "image": "https://i.ibb.co.com/N6L0DfPt/Bid3-min.png"
+    },
+    {
+      "id": 4,
+      "title": "Rolex Submariner 16610",
+      "description": "Luxury dive watch",
+      "currentBidPrice": 2800,
+      "timeLeft": "2 Days Left",
+      "bidsCount": 14,
+      "image": "https://i.ibb.co.com/k6wmjGbn/Bid4-min.png"
+    },
+    {
+      "id": 5,
+      "title": "First Edition 'The Great Gatsby' by F. Scott Fitzgerald",
+      "description": "Rare book collectible",
+      "currentBidPrice": 2550,
+      "timeLeft": "3 Days Left",
+      "bidsCount": 10,
+      "image": "https://i.ibb.co.com/bjQYzWyM/Bid5-min.png"
+    },
+    {
+      "id": 6,
+      "title": "Mid-Century Modern Eames Lounge Chair",
+      "description": "Iconic design furniture",
+      "currentBidPrice": 3000,
+      "timeLeft": "4 Days Left",
+      "bidsCount": 11,
+      "image": "https://i.ibb.co.com/LDHvxnvm/Bid6-min.png"
+    }
+  ]
