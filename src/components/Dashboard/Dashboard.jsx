@@ -6,9 +6,9 @@ import { FaHeart, FaRegHeart } from "react-icons/fa";
 
 export function ActiveAuctionsHeader() {
   return (
-    <div className="mb-6">
-      <h2 className="text-xl font-semibold mb-1">Active Auctions</h2>
-      <p className="text-gray-500 text-sm">
+    <div className="mb-6 ml-40">
+      <h2 className="text-3xl font-semibold mb-1">Active Auctions</h2>
+      <p className="text-gray-500 text-xl">
         Discover and bid on extraordinary items
       </p>
     </div>
@@ -18,7 +18,7 @@ export function ActiveAuctionsHeader() {
 export function AuctionTable({ items, favorites, addToFavorites }) {
   return (
     
-    <div className="bg-white shadow p-4 rounded-xl">
+    <div className="bg-white shadow p-4 rounded-xl ml-40">
   <div className="overflow-hidden rounded-xl border border-black">
     <table className="w-full text-sm">
       <thead className="bg-white">
@@ -77,7 +77,7 @@ export function FavoriteItemsSidebar({ favorites, removeFavorite }) {
   );
 
   return (
-    <div className="bg-white mt-19 rounded-xl shadow p-4 w-full max-w-xs h-full ">
+    <div className="bg-white mt-23 rounded-xl shadow p-4 w-full max-w-xs h-full mr-40">
       <h3 className="text-lg font-semibold mb-4 border-b border-black">
         ♡ Favorite Items
       </h3>
@@ -156,7 +156,7 @@ export default function AuctionDashboard() {
   
 
   return (
-    <div className="flex gap-6 p-16 bg-sky-100 min-h-screen">
+    <div className="flex gap-6 p-16 bg-[#E2E8F0] min-h-screen">
       <div className="flex-1">
         <ActiveAuctionsHeader />
         <AuctionTable

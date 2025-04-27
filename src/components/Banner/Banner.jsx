@@ -2,28 +2,20 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div
-      className="relative h-[400px] w-full flex items-center bg-cover bg-center"
-      style={{
-        backgroundImage: `url('https://i.ibb.co.com/LDRSwn41/Banner-min.jpg')`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-    >
-      <div className="relative z-10 text-white px-6 md:px-16 max-w-xl">
-        <h1 className="text-3xl md:text-4xl font-bold leading-snug">
-          Bid on Unique Items from
-          <br />
-          Around the World
-        </h1>
-        <p className="mt-4 text-sm md:text-base text-gray-200">
-          Discover rare collectibles, luxury goods, and vintage treasures in our
-          curated auctions
-        </p>
-        <button className="mt-6 btn btn-outline bg-white text-black hover:bg-gray-200 rounded-full">
-          Explore Auctions
-        </button>
+    <div className="bg-[url(/src/assets/banner.jpg)] h-[730px] bg-cover bg-center bg-no-repeat">
+      <div className=" text-white ">
+        <div className="pt-[255px] pl-[130px]">
+          <h3 className="text-5xl font-bold font-sora">
+            Global Treasure Trove | Rare Finds & <br /> Luxury Auctions Online
+          </h3>
+          <p className="text-xl opacity-80 mt-6 font-sora">
+          Discover rare masterpieces, vintage treasures, and luxury collectibles through <br/>{" "}
+          exclusive global online auction experiences.
+          </p>
+          <button className="btn btn-primary bg-white text-black rounded-full mt-6 px-10 font-sora">
+            Explore Auctions
+          </button>
+        </div>
       </div>
     </div>
   );
